@@ -13,9 +13,25 @@ body{
     min-height: 100vh;
     background-origin: inherit;
 }
+#frontpage {
+    min-height:250px;
+    background-image: url(triangles.png)
+}
 #qr {
     margin-top: -75px;
 }
 #support {
     margin-top: 15vh;
+}
+#s {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 22px;
+    line-height: 32px;
+}
+#v {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+    line-height: 32px;
 }
