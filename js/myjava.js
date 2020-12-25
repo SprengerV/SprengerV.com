@@ -40,10 +40,10 @@ function resetNav(html){
 }
 function resetAll(){
     resetNav(btc.html);
-    resetNav(geteth);
-    resetNav(getxrp);
-    resetNav(getltc);
-    resetNav(getdoge);
+    resetNav(eth.html);
+    resetNav(xrp.html);
+    resetNav(ltc.html);
+    resetNav(doge.html);
 }
 function activeNav(html){
     html.className = 'nav-link active';
@@ -51,11 +51,6 @@ function activeNav(html){
 function setNav(html){
     resetAll();
     activeNav(html);
-}
-function btcUp(){
-    currency.innerHTML = btc.name;
-    addr.innerHTML = btc.addr;
-    qr.src = btc.qr;
 }
 
 btc.html.addEventListener('click', function(){
